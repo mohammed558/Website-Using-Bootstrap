@@ -1,0 +1,121 @@
+/* 1) Prevent any sideways scrolling */
+html, body {
+    overflow-x: hidden;  /* hides horizontal scrollbar */
+  }
+  
+  /* 2) Make width calculations include padding/borders */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+
+
+.cus
+{
+    background-image: url('https://mnraaa.org/wp-content/uploads/2016/07/corporate-buildings-m.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+  
+
+p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cus1
+{
+    background-image: url('https://mnraaa.org/wp-content/uploads/2016/07/corporate-buildings-m.jpg');
+    width: 40vw;
+    height: 56vh;
+    margin: 10px 10px;
+    padding:10px 10px;
+    background-size: cover;
+}
+
+button{
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    display:flex;
+    justify-content: right;
+}
+
+.bgg
+{
+    background-color: rgba(78, 122, 160, 0.077);
+}
+
+.cus2
+{
+    background-image: url('https://mnraaa.org/wp-content/uploads/2016/07/corporate-buildings-m.jpg');
+    width: 40vw;
+    height: 64vh;
+    margin: 10px 10px;
+    padding:10px 10px;
+    background-size: cover;
+}
+
+h3
+{
+    font-family: sans-serif!important;
+    font-weight: 100!important;
+}
+
+.cus3
+{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/589/094/original/abstract-technology-with-hexagonal-background-free-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgg1
+{
+    background-color: rgba(224, 224, 225, 0.105);
+}
+
+
+
+
+/* .container {
+    background-image: url('https://mnraaa.org/wp-content/uploads/2016/07/corporate-buildings-m.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+    padding:0px 0px;
+    background-size: cover;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.col1 {
+    padding: 20px;
+    color: white;
+}
+
+.left {
+    text-align: left;
+    color:black;
+    width: 100vw;
+}
+ 
+.right {
+    text-align: right;
+}
+
+.btn1 {
+    background-color: bisque;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+} */
